@@ -13,7 +13,7 @@ const MINUTE = 1000*60;
 const HOUR = 60*MINUTE;
 // Daily
 const DAY = 24*HOUR;
-const pollingInterval = MINUTE;
+const pollingInterval = DAY;
 
 function loadData(){
   let rawdata = fs.readFileSync(filename);
